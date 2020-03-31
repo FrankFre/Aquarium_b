@@ -29,18 +29,18 @@ public class Aquariumb_main {
 //	 		- alles anzeigen
 
 		
-//		Iterationsschleife, um die Fische 2x zu bewegen
+//		Iterationsschleife, um die Fische 3x zu bewegen
 		
-		for (int i = 0; i < (x * 2); i++) {
+		for (int i = 0; i < (x * 3); i++) {
 			
 			for (int j = 0; j < 20; j++) {				// Schleife zur Initialisierung einer "freien" Ausgabenkonsole
-				System.out.println();				
+				System.out.println();					// 
 				}
 			
 			meinAquariumb.anzeigen();
 			meinAquariumb.fischeBewegen();
 			Thread.sleep(200);							
-			}
+		}
 
 	}
 
